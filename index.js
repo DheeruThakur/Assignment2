@@ -14,7 +14,7 @@ app.use("/contact", contactRoutes);
 // this directs all the url request starting with /token to the authRoutes.
 app.use("/token", authRoutes);
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 // connect the mongoDB url.
 mongoose.connect(process.env.MONGO_URI, () => {
