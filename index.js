@@ -8,6 +8,7 @@ const app = express();
 
 // this middleware is used to parse json format data
 app.use(express.json());
+
 app.get("/", (req, res) => {
   res.send(`<h1>Server running on port ${PORT}</h1>`);
 });
