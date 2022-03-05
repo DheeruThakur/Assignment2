@@ -1,3 +1,33 @@
+# AddressBook
+
+The software to be designed is a program that can be used to maintain an address book. An address book holds a collection of entries, each recording a person's name and contact number.
+
+## Features:
+
+- Add new contact.
+- Add bulk of contacts at a time.
+- Fetch details of single contact.
+- Fetch phase matching results also.
+- Fetch the list of contacts.
+- Update any contact.
+- Delete any contact.
+- Pagination
+
+## Hosted Links:
+
+- [https://dheerendra-address-book.herokuapp.com/](https://dheerendra-address-book.herokuapp.com/)
+
+## How to get started:
+
+- #### Clone the repo: https://github.com/DheeruThakur/Assignment2
+
+- #### Install dependencies:
+
+        `npm i`
+
+- #### Run the server:
+        `npm start`
+
 ## API Reference
 
 #### Add contact
